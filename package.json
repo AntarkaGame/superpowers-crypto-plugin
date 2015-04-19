@@ -1,0 +1,32 @@
+{
+  "name": "sup-cryptoJS-plugin",
+  "version": "1.0.0",
+  "description": "cryptoJS plugin for Superpowers, the extensible HTML5 2D+3D game engine.",
+  "dependencies": {
+    "crypto-js": "^3.1.4",
+    "gulp": "^3.8.11"
+  },
+  "homepage": "https://github.com/fraxken/superpowers-crypto-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraxken/superpowers-crypto-plugin"
+  },
+  "maintainers": [
+    "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>"
+  ],
+  "keywords": [
+    "superpowers",
+    "plugin",
+    "cryptoJS",
+    "hash",
+    "MD5",
+    "SHA1"
+  ],
+  "bugs": {
+    "url": "https://github.com/fraxken/superpowers-crypto-plugin/issues"
+  },
+  "maintainers": [
+    "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>"
+  ],
+  "license": "MIT"
+}
