@@ -15,8 +15,8 @@ makeBrowserify = (source, destination, output) ->
 
   tasks.push "#{output}-browserify"
 
-makeBrowserify "./api/index.coffee", "./public", "api"
-makeBrowserify "./runtime/index.coffee", "./public", "runtime"
+makeBrowserify "./api/index.js", "./public", "api"
+makeBrowserify "./runtime/index.js", "./public", "runtime"
 
 gulp.task "watch", ->
   gulp.watch ["./api/*"], ["api-browserify"]

@@ -2,9 +2,6 @@
 if (typeof window !== "undefined" && window !== null) {
   window.CryptoJS = require('crypto-js');
 }
-
-
-
 },{"crypto-js":10}],2:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
